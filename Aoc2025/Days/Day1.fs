@@ -1,5 +1,7 @@
 ﻿module Aoc2025.Day1
 
+open Aoc2025.Days
+
 type Day1() =
     static member private PositiveModulo100 number = (number % 100 + 100) % 100
 

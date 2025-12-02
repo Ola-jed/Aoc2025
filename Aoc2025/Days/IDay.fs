@@ -1,4 +1,4 @@
-﻿namespace Aoc2025
+﻿namespace Aoc2025.Days
 
 type IDay =
     abstract member Day : int

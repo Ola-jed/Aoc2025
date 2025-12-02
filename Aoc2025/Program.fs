@@ -1,10 +1,10 @@
-﻿open Aoc2025
-open Aoc2025.Day1
+﻿open Aoc2025.Day2
+open Aoc2025.Days
 
 [<EntryPoint>]
 let main _ =
-    let day1 = Day1() :> IDay
-    printfn $"%s{day1.Part1()}"
-    printfn $"%s{day1.Part2()}"
+    let day2 = Day2() :> IDay
+    printfn $"%s{day2.Part1()}"
+    printfn $"%s{day2.Part2()}"
 
     0
