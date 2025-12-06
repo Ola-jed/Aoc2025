@@ -19,3 +19,8 @@ module Input =
         |> Array.map _.Trim()
         |> Array.filter (fun line -> line <> "")
 
+    let readLinesNoTrim day =
+        getInput day
+        |> _.Split('\n')
+        |> Array.map _.Replace("\r", "")
+        |> Array.map _.Replace("\n", "")
