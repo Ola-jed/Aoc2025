@@ -6,9 +6,9 @@
     </PropertyGroup>
     
     <ItemGroup>
-        <Compile Include="Input.fs"/>
-        <Compile Include="Days\IDay.fs"/>
-        <Compile Include="Days\Day1.fs"/>
+        <Compile Include="Input.fs" />
+        <Compile Include="Days\IDay.fs" />
+        <Compile Include="Days\Day1.fs" />
         <Compile Include="Days\Day2.fs" />
         <Compile Include="Days\Day3.fs" />
         <Compile Include="Days\Day4.fs" />
@@ -18,10 +18,14 @@
         <Compile Include="Days\Day8.fs" />
         <Compile Include="Days\Day9.fs" />
         <Compile Include="Days\Day10.fs" />
-        <Compile Include="Program.fs"/>
+        <Compile Include="Program.fs" />
     </ItemGroup>
 
     <ItemGroup>
-        <EmbeddedResource Include="Inputs\*.txt"/>
+        <EmbeddedResource Include="Inputs\*.txt" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Google.OrTools" Version="9.14.6206" />
     </ItemGroup>
 </Project>
