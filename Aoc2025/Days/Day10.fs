@@ -13,6 +13,8 @@ type Day10() =
 
     let unsetBit number position = number &&& (~~~(1 <<< position))
 
+    let toggleBit number position = number ^^^ (1 <<< position)
+
     let parseLine str =
         let lightDiagram =
             Regex.Match(str, @"\[(.*?)\]").Groups.[1].Value.ToCharArray()
