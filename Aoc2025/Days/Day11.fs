@@ -1,7 +1,6 @@
 ﻿module Aoc2025.Day11
 
 open System.Collections.Generic
-open System.Linq
 open Aoc2025.Days
 
 type Device = { Id: string; Neighbors: string array }
